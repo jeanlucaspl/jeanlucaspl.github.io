@@ -1,0 +1,1121 @@
+{
+  "movie": "Patch Adams",
+  "year": 1998,
+  "lines": [
+    {
+      "id": 1,
+      "line": "All of life is a coming home.",
+      "phonetic": "ɔːl əv laɪf ɪz ə ˈkʌmɪŋ hoʊm",
+      "translation": "Toda la vida es un regreso a casa.",
+      "tense": "Presente simple — afirmación universal/filosófica",
+      "structure": "Sujeto (All of life) + cópula (is) + predicado nominal (a coming home)",
+      "tokens": [
+        {"word": "All", "pos": "cuantificador", "note": "modifica 'life'"},
+        {"word": "of", "pos": "preposición", "note": ""},
+        {"word": "life", "pos": "sustantivo", "note": "núcleo del sujeto"},
+        {"word": "is", "pos": "verbo copulativo", "note": "presente simple, 3ra persona singular"},
+        {"word": "a", "pos": "artículo indefinido", "note": ""},
+        {"word": "coming", "pos": "gerundio nominal", "note": "'coming home' = el acto de volver"},
+        {"word": "home", "pos": "adverbio de lugar", "note": "complemento del gerundio"}
+      ],
+      "note": "'coming home' funciona como sustantivo (nominalización de gerundio). Metáfora filosófica que da el tono de apertura de la película."
+    },
+    {
+      "id": 2,
+      "line": "Salesmen, secretaries, coal miners, beekeepers, sword swallowers--",
+      "phonetic": "ˈseɪlzmən ˈsɛkrəˌtɛriz koʊl ˈmaɪnərz ˈbiːˌkiːpərz sɔːrd ˈswɒləʊərz",
+      "translation": "Vendedores, secretarias, mineros del carbón, apicultores, tragasables...",
+      "tense": "Enumeración nominal — sin verbo (frase incompleta intencional)",
+      "structure": "Serie de sustantivos coordinados asindéticamente (sin conjunción)",
+      "tokens": [
+        {"word": "Salesmen", "pos": "sustantivo plural", "note": "vendedores; 'salesman' → 'salesmen' (plural irregular)"},
+        {"word": "secretaries", "pos": "sustantivo plural", "note": "secretarias"},
+        {"word": "coal miners", "pos": "sintagma nominal", "note": "mineros del carbón; 'coal' = carbón como modificador"},
+        {"word": "beekeepers", "pos": "sustantivo compuesto", "note": "apicultores; bee (abeja) + keeper (cuidador)"},
+        {"word": "sword swallowers", "pos": "sintagma nominal", "note": "tragasables; sword (espada) + swallower (el que traga)"},
+        {"word": "--", "pos": "guion largo", "note": "indica que la lista continúa — la oración queda abierta"}
+      ],
+      "note": "Lista sin conjunción (asíndeton) para dar ritmo y sensación de infinitud. La oración continúa en la siguiente línea con 'all of us'."
+    },
+    {
+      "id": 3,
+      "line": "all of us.",
+      "phonetic": "ɔːl əv ʌs",
+      "translation": "todos nosotros.",
+      "tense": "Sin verbo — conclusión de la enumeración anterior",
+      "structure": "Cuantificador (all) + preposición (of) + pronombre (us) — apósito de la lista anterior",
+      "tokens": [
+        {"word": "all", "pos": "cuantificador", "note": "totalidad — retoma toda la lista anterior"},
+        {"word": "of", "pos": "preposición", "note": ""},
+        {"word": "us", "pos": "pronombre personal objeto", "note": "primera persona plural — incluye al hablante y al espectador"}
+      ],
+      "note": "Cierre de la enumeración. 'All of us' generaliza: todos los seres humanos, sin excepción, buscan 'volver a casa'."
+    },
+    {
+      "id": 4,
+      "line": "All the restless hearts of the world...",
+      "phonetic": "ɔːl ðə ˈrɛstləs hɑːrts əv ðə wɜːrld",
+      "translation": "Todos los corazones inquietos del mundo...",
+      "tense": "Frase nominal — sin verbo (continúa en la siguiente línea)",
+      "structure": "Cuantificador (All) + artículo (the) + adjetivo (restless) + sustantivo (hearts) + sintagma preposicional (of the world)",
+      "tokens": [
+        {"word": "All", "pos": "cuantificador", "note": "totalidad, retoma el tema"},
+        {"word": "the", "pos": "artículo definido", "note": "referencia específica — 'esos corazones'"},
+        {"word": "restless", "pos": "adjetivo", "note": "inquieto, sin descanso; rest (descanso) + less (sin)"},
+        {"word": "hearts", "pos": "sustantivo plural", "note": "corazones — metonimia: representa a las personas"},
+        {"word": "of the world", "pos": "sintagma preposicional", "note": "complemento del nombre"}
+      ],
+      "note": "'Restless' = sin reposo, en constante búsqueda. La frase queda suspendida (...) porque el verbo aparece en la siguiente línea."
+    },
+    {
+      "id": 5,
+      "line": "all trying to find a way home.",
+      "phonetic": "ɔːl ˈtraɪɪŋ tə faɪnd ə weɪ hoʊm",
+      "translation": "todos tratando de encontrar el camino a casa.",
+      "tense": "Gerundio — continuación de la frase anterior",
+      "structure": "Cuantificador (all) + gerundio (trying) + infinitivo (to find) + objeto (a way home)",
+      "tokens": [
+        {"word": "all", "pos": "cuantificador", "note": "retoma 'All the restless hearts' de la línea anterior"},
+        {"word": "trying", "pos": "gerundio", "note": "complemento predicativo — 'en el acto de intentar'"},
+        {"word": "to find", "pos": "infinitivo", "note": "complemento de 'trying' — 'try to + infinitivo' = intentar hacer algo"},
+        {"word": "a way", "pos": "sintagma nominal", "note": "objeto directo de 'find'"},
+        {"word": "home", "pos": "adverbio de lugar", "note": "complemento de dirección — 'a casa'"}
+      ],
+      "note": "'Find a way home' = encontrar el camino de regreso. Cierra la idea iniciada en las líneas 1-4 con una imagen de búsqueda universal."
+    },
+    {
+      "id": 6,
+      "line": "It's hard to describe what I felt like then.",
+      "phonetic": "ɪts hɑːrd tə dɪˈskraɪb wɒt aɪ fɛlt laɪk ðɛn",
+      "translation": "Es difícil describir cómo me sentía entonces.",
+      "tense": "Presente simple (It's hard) + pasado simple en la subordinada (I felt)",
+      "structure": "Sujeto expletivo (It) + cópula (is) + adjetivo (hard) + infinitivo (to describe) + cláusula objeto (what I felt like then)",
+      "tokens": [
+        {"word": "It's", "pos": "sujeto + cópula", "note": "contracción de 'it is' — 'it' es sujeto expletivo, no refiere a nada concreto"},
+        {"word": "hard", "pos": "adjetivo predicativo", "note": "complemento de la cópula"},
+        {"word": "to describe", "pos": "infinitivo", "note": "complementa al adjetivo 'hard'"},
+        {"word": "what", "pos": "pronombre relativo", "note": "introduce la cláusula objeto"},
+        {"word": "I", "pos": "pronombre personal", "note": "sujeto de la cláusula subordinada"},
+        {"word": "felt", "pos": "verbo (pasado simple)", "note": "feel → felt; verbo de percepción"},
+        {"word": "like", "pos": "preposición", "note": "introduce el modo — 'cómo'"},
+        {"word": "then", "pos": "adverbio de tiempo", "note": "referencia temporal al pasado narrado"}
+      ],
+      "note": "'It's hard to + infinitivo' = estructura muy común para expresar dificultad. 'What I felt like' es una cláusula nominal que funciona como objeto de 'describe'."
+    },
+    {
+      "id": 7,
+      "line": "Picture yourself walking for days in a driving snow.",
+      "phonetic": "ˈpɪktʃər jɔːrˈsɛlf ˈwɔːkɪŋ fər deɪz ɪn ə ˈdraɪvɪŋ snoʊ",
+      "translation": "Imagínate caminando durante días bajo una nevada impulsada por el viento.",
+      "tense": "Imperativo (presente)",
+      "structure": "Verbo imperativo (Picture) + pronombre reflexivo (yourself) + gerundio (walking) + complemento de tiempo (for days) + complemento de lugar (in a driving snow)",
+      "tokens": [
+        {"word": "Picture", "pos": "verbo imperativo", "note": "= 'imagina'; la oración no tiene sujeto explícito — se sobreentiende 'you'"},
+        {"word": "yourself", "pos": "pronombre reflexivo", "note": "objeto reflexivo de 'picture'"},
+        {"word": "walking", "pos": "gerundio", "note": "complementa el objeto — 'imagínate [haciendo]'"},
+        {"word": "for days", "pos": "sintagma preposicional", "note": "duración indeterminada"},
+        {"word": "in", "pos": "preposición", "note": "introduce el contexto/ambiente"},
+        {"word": "a driving", "pos": "artículo + adjetivo participial", "note": "'driving' = impulsada por el viento; NO 'que maneja'. Participio presente como adjetivo"},
+        {"word": "snow", "pos": "sustantivo", "note": "núcleo del sintagma preposicional"}
+      ],
+      "note": "'driving snow' es una expresión fija: nieve horizontal azotada por viento fuerte. 'Picture yourself + gerundio' = imagínate haciendo algo."
+    },
+    {
+      "id": 8,
+      "line": "You don't even know you're walking in circles--",
+      "phonetic": "juː doʊnt ˈiːvən noʊ jʊər ˈwɔːkɪŋ ɪn ˈsɜːrkəlz",
+      "translation": "Ni siquiera sabes que estás caminando en círculos.",
+      "tense": "Presente simple (negativo) + presente continuo en la subordinada",
+      "structure": "Sujeto (You) + auxiliar negativo (don't) + adverbio (even) + verbo (know) + cláusula objeto (you're walking in circles)",
+      "tokens": [
+        {"word": "You", "pos": "pronombre personal", "note": "sujeto — uso impersonal (se habla a la audiencia en general)"},
+        {"word": "don't", "pos": "auxiliar negativo", "note": "contracción de 'do not'"},
+        {"word": "even", "pos": "adverbio enfático", "note": "refuerza la negación: 'ni siquiera'"},
+        {"word": "know", "pos": "verbo principal", "note": ""},
+        {"word": "you're", "pos": "sujeto + auxiliar", "note": "contracción de 'you are' — introduce cláusula objeto"},
+        {"word": "walking", "pos": "gerundio", "note": "presente continuo con 'are'"},
+        {"word": "in circles", "pos": "locución adverbial", "note": "idioma: dar vueltas sin progresar; sentido literal y metafórico"}
+      ],
+      "note": "'even' añade énfasis a la negación — equivale al español 'ni siquiera'. 'Walk in circles' es idiomático: moverse sin avanzar, estar perdido."
+    },
+    {
+      "id": 9,
+      "line": "the heaviness of your legs in the drifts;",
+      "phonetic": "ðə ˈhɛvinəs əv jɔːr lɛɡz ɪn ðə drɪfts",
+      "translation": "el peso de tus piernas en los ventisqueros;",
+      "tense": "Frase nominal — sin verbo (parte de una enumeración de sensaciones)",
+      "structure": "Artículo (the) + sustantivo abstracto (heaviness) + sintagma preposicional (of your legs) + sintagma preposicional (in the drifts)",
+      "tokens": [
+        {"word": "the heaviness", "pos": "sintagma nominal", "note": "'heaviness' = el peso, la pesadez; sustantivo derivado de 'heavy' + sufijo -ness"},
+        {"word": "of your legs", "pos": "sintagma preposicional", "note": "complemento del nombre — especifica qué es lo pesado"},
+        {"word": "in the drifts", "pos": "sintagma preposicional", "note": "'drifts' = montículos de nieve acumulada por el viento (ventisqueros)"}
+      ],
+      "note": "'Drift' = montículo de nieve formado por el viento. La frase describe una sensación física sin verbo, como una imagen poética."
+    },
+    {
+      "id": 10,
+      "line": "your shouts disappearing into the wind.",
+      "phonetic": "jɔːr ʃaʊts ˌdɪsəˈpɪərɪŋ ˈɪntə ðə wɪnd",
+      "translation": "tus gritos desvaneciéndose en el viento.",
+      "tense": "Frase nominal con gerundio — sin verbo conjugado",
+      "structure": "Posesivo (your) + sustantivo (shouts) + gerundio predicativo (disappearing) + dirección (into the wind)",
+      "tokens": [
+        {"word": "your", "pos": "determinante posesivo", "note": "segunda persona singular — el espectador siente esto"},
+        {"word": "shouts", "pos": "sustantivo plural", "note": "gritos"},
+        {"word": "disappearing", "pos": "gerundio/participio presente", "note": "describe un proceso en curso — 'desvaneciéndose'"},
+        {"word": "into", "pos": "preposición de movimiento", "note": "indica dirección hacia el interior — el viento 'absorbe' los gritos"},
+        {"word": "the wind", "pos": "sintagma nominal", "note": "el viento — también metafórico: los gritos de ayuda no son escuchados"}
+      ],
+      "note": "Imagen poética sin verbo conjugado. 'Into' (movimiento hacia adentro) vs 'in' (posición estática): los gritos se pierden activamente dentro del viento."
+    },
+    {
+      "id": 11,
+      "line": "How small you can feel.",
+      "phonetic": "haʊ smɔːl juː kæn fiːl",
+      "translation": "Qué pequeño puedes llegar a sentirte.",
+      "tense": "Presente simple con modal (can)",
+      "structure": "Exclamativa con 'How' + adjetivo (small) + sujeto (you) + modal (can) + verbo (feel)",
+      "tokens": [
+        {"word": "How", "pos": "adverbio exclamativo", "note": "introduce la exclamativa — equivale al español '¡Qué!'"},
+        {"word": "small", "pos": "adjetivo predicativo", "note": "complemento del verbo 'feel'"},
+        {"word": "you", "pos": "pronombre personal", "note": "sujeto"},
+        {"word": "can", "pos": "verbo modal", "note": "posibilidad/capacidad — 'puedes'"},
+        {"word": "feel", "pos": "verbo copulativo", "note": "verbo de percepción; 'feel + adjetivo' = sentirse [adjetivo]"}
+      ],
+      "note": "Estructura exclamativa con inversión: 'How + adjetivo + sujeto + verbo'. En español se usa '¡Qué + adjetivo!' sin inversión."
+    },
+    {
+      "id": 12,
+      "line": "How far away home can be.",
+      "phonetic": "haʊ fɑːr əˈweɪ hoʊm kæn biː",
+      "translation": "Qué lejos puede estar el hogar.",
+      "tense": "Presente simple con modal (can)",
+      "structure": "Exclamativa con 'How' + adverbio (far away) + sujeto (home) + modal (can) + cópula (be)",
+      "tokens": [
+        {"word": "How", "pos": "adverbio exclamativo", "note": "mismo patrón que la línea anterior"},
+        {"word": "far away", "pos": "locución adverbial", "note": "'far' = lejos + 'away' = a distancia; juntos intensifican la lejanía"},
+        {"word": "home", "pos": "sustantivo/adverbio", "note": "aquí funciona como sujeto — 'el hogar'"},
+        {"word": "can", "pos": "verbo modal", "note": "posibilidad — 'puede (ser)'"},
+        {"word": "be", "pos": "verbo copulativo", "note": "infinitivo como predicado; 'be far away' = estar lejos"}
+      ],
+      "note": "Paralelo con la línea anterior ('How small you can feel'). Ambas son exclamativas sin signo de exclamación — tono reflexivo, no dramático."
+    },
+    {
+      "id": 13,
+      "line": "Home.",
+      "phonetic": "hoʊm",
+      "translation": "Hogar.",
+      "tense": "Sin verbo — palabra aislada con valor temático",
+      "structure": "Sustantivo solo — énfasis por aislamiento",
+      "tokens": [
+        {"word": "Home", "pos": "sustantivo", "note": "hogar; también puede ser adverbio ('a casa'). Aquí usado como tema aislado"}
+      ],
+      "note": "Una sola palabra como oración. El aislamiento da peso emocional máximo. Es el tema central de todo el monólogo inicial."
+    },
+    {
+      "id": 14,
+      "line": "The dictionary defines it as both a place of origin...",
+      "phonetic": "ðə ˈdɪkʃənɛri dɪˈfaɪnz ɪt æz boʊθ ə pleɪs əv ˈɔːrɪdʒɪn",
+      "translation": "El diccionario lo define como a la vez un lugar de origen...",
+      "tense": "Presente simple — definición objetiva",
+      "structure": "Sujeto (The dictionary) + verbo (defines) + objeto (it) + complemento (as both a place of origin...)",
+      "tokens": [
+        {"word": "The dictionary", "pos": "sintagma nominal", "note": "sujeto — uso del artículo definido 'the' indica que es EL diccionario (autoridad)"},
+        {"word": "defines", "pos": "verbo (presente simple)", "note": "3ra persona singular; 'define' = definir"},
+        {"word": "it", "pos": "pronombre", "note": "objeto directo — refiere a 'home'"},
+        {"word": "as", "pos": "preposición", "note": "introduce el predicado de la definición"},
+        {"word": "both", "pos": "cuantificador correlativo", "note": "'both...and' = 'tanto...como' — indica dos significados simultáneos"},
+        {"word": "a place of origin", "pos": "sintagma nominal", "note": "primer significado del diccionario: lugar de nacimiento/procedencia"}
+      ],
+      "note": "La estructura 'both...and' anuncia dos definiciones. La oración se completa en la siguiente línea ('and a goal or destination')."
+    },
+    {
+      "id": 15,
+      "line": "and a goal or destination.",
+      "phonetic": "ænd ə ɡoʊl ɔːr ˌdɛstɪˈneɪʃən",
+      "translation": "y un objetivo o destino.",
+      "tense": "Continuación de la oración anterior — sin verbo propio",
+      "structure": "Conjunción (and) + sintagma nominal (a goal or destination) — segundo término de la estructura 'both...and'",
+      "tokens": [
+        {"word": "and", "pos": "conjunción coordinante", "note": "cierra la estructura 'both...and' iniciada en la línea anterior"},
+        {"word": "a goal", "pos": "sintagma nominal", "note": "un objetivo — 'home' como meta a alcanzar"},
+        {"word": "or", "pos": "conjunción disyuntiva", "note": "presenta alternativa o sinónimo"},
+        {"word": "destination", "pos": "sustantivo", "note": "destino — lugar al que se dirige alguien"}
+      ],
+      "note": "Cierre de la definición doble: 'home' es tanto de dónde venimos como a dónde vamos. Esta dualidad es el núcleo filosófico de la película."
+    },
+    {
+      "id": 16,
+      "line": "And the storm?",
+      "phonetic": "ænd ðə stɔːrm",
+      "translation": "¿Y la tormenta?",
+      "tense": "Interrogativa elíptica — sin verbo",
+      "structure": "Conjunción (And) + artículo (the) + sustantivo (storm) — pregunta retórica sin verbo explícito",
+      "tokens": [
+        {"word": "And", "pos": "conjunción coordinante", "note": "inusual al inicio de oración — énfasis coloquial, como pregunta que interrumpe"},
+        {"word": "the storm", "pos": "sintagma nominal", "note": "la tormenta — referencia metafórica a su crisis personal/mental"}
+      ],
+      "note": "Pregunta retórica sin verbo: se sobreentiende '¿Y qué pasó con la tormenta?' o '¿Qué era la tormenta?'. La respuesta viene en la siguiente línea."
+    },
+    {
+      "id": 17,
+      "line": "The storm was all in my mind.",
+      "phonetic": "ðə stɔːrm wɒz ɔːl ɪn maɪ maɪnd",
+      "translation": "La tormenta estaba toda en mi mente. / Era solo producto de mi imaginación.",
+      "tense": "Pasado simple",
+      "structure": "Sujeto (The storm) + cópula (was) + predicado (all in my mind)",
+      "tokens": [
+        {"word": "The", "pos": "artículo definido", "note": "referencia a 'la tormenta' mencionada antes"},
+        {"word": "storm", "pos": "sustantivo", "note": "núcleo del sujeto; uso metafórico — el período oscuro de su vida"},
+        {"word": "was", "pos": "verbo copulativo (pasado)", "note": "pasado de 'be'"},
+        {"word": "all", "pos": "adverbio intensificador", "note": "enfatiza que fue completamente imaginario"},
+        {"word": "in", "pos": "preposición", "note": ""},
+        {"word": "my mind", "pos": "sintagma nominal", "note": "objeto de la preposición"}
+      ],
+      "note": "'All in my mind' = expresión idiomática: algo que solo existe en la imaginación. Equivale a 'producto de mi imaginación' o 'algo que me inventé'."
+    },
+    {
+      "id": 18,
+      "line": "Or, as the poet Dante put it...",
+      "phonetic": "ɔːr æz ðə ˈpoʊɪt ˈdɑːnteɪ pʊt ɪt",
+      "translation": "O, como lo expresó el poeta Dante...",
+      "tense": "Pasado simple (put) — cláusula de modo",
+      "structure": "Conjunción (Or) + cláusula comparativa (as the poet Dante put it) — introduce cita",
+      "tokens": [
+        {"word": "Or", "pos": "conjunción disyuntiva", "note": "introduce una alternativa — otra forma de decir lo mismo"},
+        {"word": "as", "pos": "conjunción subordinante", "note": "introduce cláusula de modo: 'como'"},
+        {"word": "the poet", "pos": "sintagma nominal", "note": "título como aposición: identifica a Dante por su oficio"},
+        {"word": "Dante", "pos": "nombre propio", "note": "Dante Alighieri (1265-1321), autor de La Divina Comedia"},
+        {"word": "put it", "pos": "verbo frasal (pasado)", "note": "'put it' = expresarlo, formularlo; 'as X put it' = como lo dijo X"}
+      ],
+      "note": "'As [alguien] put it' = como lo expresó alguien. Fórmula para introducir citas. 'Put' es irregular: put → put (mismo en pasado)."
+    },
+    {
+      "id": 19,
+      "line": "\"In the middle of the journey of my life I found myself in a dark wood...",
+      "phonetic": "ɪn ðə ˈmɪdl əv ðə ˈdʒɜːrni əv maɪ laɪf aɪ faʊnd maɪˈsɛlf ɪn ə dɑːrk wʊd",
+      "translation": "\"En la mitad del camino de mi vida me encontré en una selva oscura...",
+      "tense": "Pasado simple — cita de La Divina Comedia",
+      "structure": "Complemento de lugar (In the middle...) + Sujeto (I) + verbo reflexivo (found myself) + complemento (in a dark wood)",
+      "tokens": [
+        {"word": "In the middle of", "pos": "locución preposicional", "note": "en el medio de — indica punto intermedio"},
+        {"word": "the journey of my life", "pos": "sintagma nominal", "note": "el viaje/recorrido de mi vida — metáfora de la existencia"},
+        {"word": "I", "pos": "pronombre personal", "note": "sujeto"},
+        {"word": "found", "pos": "verbo (pasado simple)", "note": "find → found; 'found myself' = me encontré, me hallé"},
+        {"word": "myself", "pos": "pronombre reflexivo", "note": "el sujeto es también objeto — acción reflexiva"},
+        {"word": "in a dark wood", "pos": "sintagma preposicional", "note": "en una selva/bosque oscuro — metáfora de la crisis espiritual"}
+      ],
+      "note": "Cita del primer verso del Infierno (La Divina Comedia, Dante). 'Dark wood' es la famosa 'selva oscura' — símbolo del extravío espiritual a mitad de la vida."
+    },
+    {
+      "id": 20,
+      "line": "for I had lost the right path.\"",
+      "phonetic": "fɔːr aɪ hæd lɒst ðə raɪt pæθ",
+      "translation": "pues había perdido el camino recto.\"",
+      "tense": "Pasado perfecto — acción anterior al punto de referencia pasado",
+      "structure": "Conjunción causal (for) + Sujeto (I) + auxiliar (had) + participio (lost) + objeto (the right path)",
+      "tokens": [
+        {"word": "for", "pos": "conjunción causal (arcaica)", "note": "= 'because/pues'; uso literario/formal, poco común hoy en habla cotidiana"},
+        {"word": "I", "pos": "pronombre personal", "note": "sujeto"},
+        {"word": "had lost", "pos": "pasado perfecto", "note": "had + participio pasado; acción completada antes de otro momento pasado"},
+        {"word": "the right path", "pos": "sintagma nominal", "note": "'right' = correcto, recto; 'the right path' = el camino correcto — también metáfora moral"}
+      ],
+      "note": "'For' como conjunción causal es arcaico — propio del lenguaje literario o bíblico. El pasado perfecto ('had lost') marca que el extravío precedió al momento del descubrimiento."
+    },
+    {
+      "id": 21,
+      "line": "Eventually I would find the right path...",
+      "phonetic": "ɪˈvɛntʃuəli aɪ wʊd faɪnd ðə raɪt pæθ",
+      "translation": "Eventualmente encontraría el camino correcto...",
+      "tense": "Futuro del pasado (would + infinitivo) — también llamado 'conditional past'",
+      "structure": "Adverbio (Eventually) + Sujeto (I) + modal (would) + verbo (find) + objeto (the right path)",
+      "tokens": [
+        {"word": "Eventually", "pos": "adverbio", "note": "con el tiempo, eventualmente — indica que algo sucede después de un proceso"},
+        {"word": "I", "pos": "pronombre personal", "note": "sujeto"},
+        {"word": "would", "pos": "modal (futuro del pasado)", "note": "desde el punto de vista del pasado, indica algo que ocurrirá después"},
+        {"word": "find", "pos": "verbo principal (infinitivo)", "note": ""},
+        {"word": "the right path", "pos": "sintagma nominal", "note": "retoma la imagen de Dante — el camino correcto"}
+      ],
+      "note": "'Would + infinitivo' desde una narración pasada equivale al futuro: 'encontraría'. No es condicional aquí sino futuro del pasado narrativo."
+    },
+    {
+      "id": 22,
+      "line": "but in the most unlikely place.",
+      "phonetic": "bʌt ɪn ðə moʊst ˈʌnˈlaɪkli pleɪs",
+      "translation": "pero en el lugar más improbable.",
+      "tense": "Continuación de la oración anterior — sin verbo propio",
+      "structure": "Conjunción adversativa (but) + sintagma preposicional (in the most unlikely place)",
+      "tokens": [
+        {"word": "but", "pos": "conjunción adversativa", "note": "introduce contraste con lo esperado"},
+        {"word": "in", "pos": "preposición", "note": ""},
+        {"word": "the most unlikely", "pos": "superlativo", "note": "'unlikely' = improbable; superlativo: the most unlikely. No se usa 'unlikeliest'"},
+        {"word": "place", "pos": "sustantivo", "note": "lugar — complementa al verbo 'find' de la oración anterior"}
+      ],
+      "note": "El superlativo 'most unlikely' (no 'unlikeliest') porque los adjetivos de más de dos sílabas usan 'most' en lugar del sufijo '-est'. Genera suspenso narrativo."
+    },
+    {
+      "id": 23,
+      "line": "How many fingers do you see?",
+      "phonetic": "haʊ ˈmɛni ˈfɪŋɡərz duː juː siː",
+      "translation": "¿Cuántos dedos ves?",
+      "tense": "Presente simple (interrogativo)",
+      "structure": "Interrogativa con 'How many' + sustantivo (fingers) + auxiliar (do) + sujeto (you) + verbo (see)",
+      "tokens": [
+        {"word": "How many", "pos": "determinante interrogativo", "note": "pregunta por cantidad; 'how many' = '¿cuántos?' (para contables)"},
+        {"word": "fingers", "pos": "sustantivo plural", "note": "dedo(s) — objeto de la pregunta"},
+        {"word": "do", "pos": "auxiliar interrogativo", "note": "invierte el orden sujeto-verbo para formar pregunta"},
+        {"word": "you", "pos": "pronombre personal", "note": "sujeto"},
+        {"word": "see", "pos": "verbo principal", "note": "presente simple; en inglés no se usa continuo para percepciones ('I see' no 'I'm seeing')"}
+      ],
+      "note": "Inversión sujeto-auxiliar en preguntas: 'do you see' en lugar de 'you see'. 'How many' (contables) vs 'how much' (incontables)."
+    },
+    {
+      "id": 24,
+      "line": "You crazy-- Stop sneakin' up on me like that.",
+      "phonetic": "juː ˈkreɪziː stɒp ˈsniːkɪn ʌp ɒn miː laɪk ðæt",
+      "translation": "Estás loco... Deja de acercarte sigilosamente así.",
+      "tense": "Exclamación + Imperativo (presente)",
+      "structure": "Exclamación elíptica (You [are] crazy) + Imperativo (Stop) + gerundio (sneakin' up on me) + modo (like that)",
+      "tokens": [
+        {"word": "You", "pos": "pronombre personal", "note": "sujeto de la exclamación"},
+        {"word": "crazy", "pos": "adjetivo predicativo", "note": "el verbo 'are' se omite — habla informal/exclamada"},
+        {"word": "Stop", "pos": "verbo imperativo", "note": "'stop + gerundio' = dejar de hacer algo"},
+        {"word": "sneakin'", "pos": "gerundio", "note": "forma informal de 'sneaking' — omisión de la -g final, muy común en habla coloquial"},
+        {"word": "up on", "pos": "partícula + preposición", "note": "'sneak up on someone' = verbo frasal: acercarse sigilosamente a alguien"},
+        {"word": "me", "pos": "pronombre objeto", "note": "objeto de 'sneak up on'"},
+        {"word": "like that", "pos": "locución adverbial", "note": "'así', 'de esa manera'"}
+      ],
+      "note": "'You [are] crazy' — el verbo se omite en exclamaciones informales. 'Sneak up on someone' es un verbo frasal idiomático. La -g caída en 'sneakin'' es marcador de habla coloquial americana."
+    },
+    {
+      "id": 25,
+      "line": "How many?",
+      "phonetic": "haʊ ˈmɛni",
+      "translation": "¿Cuántos?",
+      "tense": "Interrogativa elíptica — sin verbo",
+      "structure": "Pregunta de seguimiento — retoma la pregunta anterior sin repetir el sustantivo",
+      "tokens": [
+        {"word": "How many", "pos": "determinante interrogativo", "note": "forma elíptica de 'How many fingers do you see?' — se omite lo ya mencionado"}
+      ],
+      "note": "Elipsis: omisión de los elementos ya mencionados ('fingers do you see'). Muy común en el habla para no repetir información."
+    },
+    {
+      "id": 26,
+      "line": "- Four. - Four?",
+      "phonetic": "fɔːr fɔːr",
+      "translation": "- Cuatro. - ¿Cuatro?",
+      "tense": "Sin verbo — respuesta + pregunta de confirmación",
+      "structure": "Respuesta nominal (Four) + Pregunta de eco (Four?)",
+      "tokens": [
+        {"word": "Four", "pos": "numeral cardinal", "note": "respuesta a '¿cuántos dedos?'"},
+        {"word": "Four?", "pos": "numeral cardinal (interrogativo)", "note": "pregunta de eco — repite la respuesta con entonación ascendente para expresar sorpresa o incredulidad"}
+      ],
+      "note": "'Echo question': repetir la respuesta del otro con entonación de pregunta. Expresa sorpresa, duda o desacuerdo implícito."
+    },
+    {
+      "id": 27,
+      "line": "Four?",
+      "phonetic": "fɔːr",
+      "translation": "¿Cuatro?",
+      "tense": "Sin verbo — pregunta de eco repetida",
+      "structure": "Numeral solo con entonación interrogativa",
+      "tokens": [
+        {"word": "Four?", "pos": "numeral cardinal", "note": "repetición que intensifica la sorpresa — técnica cómica de Patch Adams"}
+      ],
+      "note": "La repetición del '¿Cuatro?' por tercera vez es un recurso cómico: la insistencia exagerada genera humor. Patrón clásico de comedia: repetición en tres."
+    },
+    {
+      "id": 28,
+      "line": "Another idiot.",
+      "phonetic": "əˈnʌðər ˈɪdiət",
+      "translation": "Otro idiota.",
+      "tense": "Sin verbo — juicio despectivo",
+      "structure": "Determinante (Another) + sustantivo (idiot) — oración nominal",
+      "tokens": [
+        {"word": "Another", "pos": "determinante", "note": "'another' = otro (uno más de la misma categoría); implica que ya hubo más antes"},
+        {"word": "idiot", "pos": "sustantivo", "note": "idiota — insulto coloquial; indica frustración del personaje"}
+      ],
+      "note": "'Another' implica una serie previa — no es el primero. Dicho en voz baja como comentario privado, es humor negro del personaje que pone los dedos."
+    },
+    {
+      "id": 29,
+      "line": "You gon' love it here.",
+      "phonetic": "juː ɡɒn lʌv ɪt hɪər",
+      "translation": "Te va a encantar aquí.",
+      "tense": "Futuro de intención (gonna reducido a 'gon')",
+      "structure": "Sujeto (You) + auxiliar reducido (gon') + verbo principal (love) + objeto (it) + adverbio (here)",
+      "tokens": [
+        {"word": "You", "pos": "pronombre personal", "note": "sujeto"},
+        {"word": "gon'", "pos": "auxiliar informal", "note": "forma muy reducida de 'gonna' (going to) — nivel máximo de informalidad coloquial"},
+        {"word": "love", "pos": "verbo principal", "note": "amar, encantar — en futuro con 'gonna'"},
+        {"word": "it", "pos": "pronombre", "note": "objeto directo — refiere al lugar (el hospital)"},
+        {"word": "here", "pos": "adverbio de lugar", "note": "aquí — complemento de lugar"}
+      ],
+      "note": "'Gon'' es una reducción extrema de 'going to' (gonna → gon'). Refleja habla muy coloquial, posiblemente con acento regional. Tono sarcástico — es un hospital psiquiátrico."
+    },
+    {
+      "id": 30,
+      "line": "Got a new one, Jane. Hunter Adams.",
+      "phonetic": "ɡɒt ə njuː wʌn dʒeɪn ˈhʌntər ˈædəmz",
+      "translation": "Tenemos uno nuevo, Jane. Hunter Adams.",
+      "tense": "Presente perfecto reducido / habla informal (sujeto omitido)",
+      "structure": "[We've] Got a new one — sujeto y auxiliar omitidos en habla coloquial rápida",
+      "tokens": [
+        {"word": "Got", "pos": "verbo (participio/pasado)", "note": "'[We've] got' = tenemos. En habla informal se omite 'we've'"},
+        {"word": "a new one", "pos": "sintagma nominal", "note": "'one' como pronombre: reemplaza al sustantivo (paciente) ya conocido por el contexto"},
+        {"word": "Jane", "pos": "nombre propio (vocativo)", "note": "nombre de la enfermera — vocativo: forma de dirigirse a alguien"},
+        {"word": "Hunter Adams", "pos": "nombre propio", "note": "nombre del nuevo paciente — presentado como dato de ficha"}
+      ],
+      "note": "Habla rápida de hospital: se omite el sujeto ('We've'). 'Got a new one' = expresión para referirse a un nuevo paciente de forma impersonal."
+    },
+    {
+      "id": 31,
+      "line": "Self-committed. Suicidal. Slate him with Dr. Prack.",
+      "phonetic": "sɛlf kəˈmɪtɪd ˌsuːɪˈsaɪdəl sleɪt hɪm wɪð ˈdɒktər præk",
+      "translation": "Internación voluntaria. Tendencias suicidas. Asígnalo al Dr. Prack.",
+      "tense": "Fragmentos nominales + imperativo",
+      "structure": "Dos adjetivos/participios como diagnóstico abreviado + Imperativo (Slate him with Dr. Prack)",
+      "tokens": [
+        {"word": "Self-committed", "pos": "adjetivo compuesto", "note": "internado por decisión propia ('self' = propio, 'committed' = internado)"},
+        {"word": "Suicidal", "pos": "adjetivo", "note": "con tendencias suicidas — registro médico/psiquiátrico"},
+        {"word": "Slate", "pos": "verbo imperativo", "note": "programar, asignar — 'slate someone for/with' = asignar a alguien (con sentido de agenda)"},
+        {"word": "him", "pos": "pronombre objeto", "note": "objeto directo — refiere al paciente"},
+        {"word": "with Dr. Prack", "pos": "sintagma preposicional", "note": "complemento de 'slate' — indica el médico asignado"}
+      ],
+      "note": "Jerga hospitalaria: frases telegráficas sin verbo para diagnóstico rápido. 'Slate' en contexto médico = programar/asignar a un profesional."
+    },
+    {
+      "id": 32,
+      "line": "All right.",
+      "phonetic": "ɔːl raɪt",
+      "translation": "Está bien. / De acuerdo.",
+      "tense": "Sin verbo — respuesta afirmativa",
+      "structure": "Locución adverbial de acuerdo",
+      "tokens": [
+        {"word": "All right", "pos": "locución adverbial", "note": "= 'okay', 'de acuerdo'. También escrito 'alright' (informal). Respuesta de conformidad"}
+      ],
+      "note": "'All right' y 'alright' son intercambiables en uso informal. 'All right' es la forma etimológicamente 'correcta'; 'alright' es la versión coloquial moderna."
+    },
+    {
+      "id": 33,
+      "line": "Hey, Rudy! What's the word, my man?",
+      "phonetic": "heɪ ˈruːdi wʌts ðə wɜːrd maɪ mæn",
+      "translation": "¡Eh, Rudy! ¿Qué hay de nuevo, amigo?",
+      "tense": "Presente simple (interrogativo) — saludo coloquial",
+      "structure": "Interjección (Hey) + vocativo (Rudy) + pregunta coloquial (What's the word) + vocativo afectivo (my man)",
+      "tokens": [
+        {"word": "Hey", "pos": "interjección", "note": "saludo informal — llamar la atención de alguien"},
+        {"word": "Rudy", "pos": "nombre propio (vocativo)", "note": "nombre del paciente"},
+        {"word": "What's the word", "pos": "expresión idiomática", "note": "= '¿Qué hay?' / '¿Cuáles son las noticias?' — saludo informal"},
+        {"word": "my man", "pos": "vocativo afectivo", "note": "expresión de camaradería — 'amigo', 'compa'. Muy común en habla afroamericana informal"}
+      ],
+      "note": "'What's the word?' es una expresión coloquial equivalente a '¿Qué hay de nuevo?' o '¿Qué cuentas?'. 'My man' es un vocativo de amistad, sin connotación de posesión."
+    },
+    {
+      "id": 34,
+      "line": "He ain't left that bed in three weeks. He won't give you any trouble.",
+      "phonetic": "hiː eɪnt lɛft ðæt bɛd ɪn θriː wiːks hiː woʊnt ɡɪv juː ˈɛni ˈtrʌbəl",
+      "translation": "No ha salido de esa cama en tres semanas. No te dará ningún problema.",
+      "tense": "Presente perfecto (informal con 'ain't') + Futuro con 'won't'",
+      "structure": "[Oración 1] Sujeto (He) + auxiliar negativo informal (ain't) + participio (left) + objeto + tiempo / [Oración 2] Sujeto (He) + auxiliar negativo (won't) + verbo (give) + objeto indirecto (you) + objeto directo (any trouble)",
+      "tokens": [
+        {"word": "He", "pos": "pronombre personal", "note": "sujeto, 3ra persona singular"},
+        {"word": "ain't", "pos": "auxiliar negativo (informal)", "note": "reemplaza 'hasn't' en presente perfecto; también puede ser 'isn't/aren't/am not'"},
+        {"word": "left", "pos": "participio pasado", "note": "leave → left; verbo principal del presente perfecto"},
+        {"word": "that bed", "pos": "sintagma nominal", "note": "objeto directo; 'that' señala algo específico"},
+        {"word": "in three weeks", "pos": "sintagma preposicional", "note": "duración: 'desde hace tres semanas'"},
+        {"word": "won't", "pos": "auxiliar negativo futuro", "note": "contracción de 'will not' — futuro"},
+        {"word": "give", "pos": "verbo ditransitivo", "note": "toma dos objetos: indirecto (you) y directo (any trouble)"},
+        {"word": "any trouble", "pos": "sintagma nominal", "note": "'any' en negativo = 'ningún'. 'give trouble' = dar problemas"}
+      ],
+      "note": "'ain't' es no estándar. Muy común en inglés coloquial americano. Aquí equivale exactamente a 'hasn't'. 'Give someone trouble' = causar problemas a alguien."
+    },
+    {
+      "id": 35,
+      "line": "He needs another bedpan. They're in the closet. Wake-up is 6:00 a.m.",
+      "phonetic": "hiː niːdz əˈnʌðər ˈbɛdpæn ðeər ɪn ðə ˈklɒzɪt weɪk ʌp ɪz sɪks eɪ ɛm",
+      "translation": "Necesita otro orinal. Están en el armario. El despertar es a las 6 a.m.",
+      "tense": "Presente simple — instrucciones operativas",
+      "structure": "Tres oraciones cortas en presente simple: necesidad + ubicación + horario",
+      "tokens": [
+        {"word": "bedpan", "pos": "sustantivo compuesto", "note": "cuña/orinal de cama — bed (cama) + pan (recipiente)"},
+        {"word": "They're", "pos": "sujeto + cópula", "note": "'they' refiere a los bedpans; 'are' + 'in' = ubicación"},
+        {"word": "the closet", "pos": "sintagma nominal", "note": "armario empotrado — en EE.UU. 'closet' es siempre armario, no lo que dice en español"},
+        {"word": "Wake-up", "pos": "sustantivo compuesto", "note": "despertar, hora de levantarse; sustantivo derivado del verbo frasal 'wake up'"},
+        {"word": "6:00 a.m.", "pos": "complemento de tiempo", "note": "a.m. = ante meridiem (latín) = antes del mediodía"}
+      ],
+      "note": "Jerga de hospital: instrucciones telegráficas en presente simple. 'Closet' en inglés americano = armario (no tiene connotación de 'clóset' sexual en este contexto)."
+    },
+    {
+      "id": 36,
+      "line": "Excuse me.",
+      "phonetic": "ɪkˈskjuːz miː",
+      "translation": "Disculpe. / Perdón.",
+      "tense": "Imperativo (fórmula de cortesía)",
+      "structure": "Verbo imperativo (Excuse) + objeto (me)",
+      "tokens": [
+        {"word": "Excuse", "pos": "verbo imperativo", "note": "disculpar — 'excuse me' es una fórmula fija de cortesía"},
+        {"word": "me", "pos": "pronombre objeto", "note": "primera persona singular — objeto del verbo"}
+      ],
+      "note": "'Excuse me' tiene varios usos: pedir paso, llamar la atención de alguien, disculparse por interrumpir. No es lo mismo que 'I'm sorry' (disculpa por error)."
+    },
+    {
+      "id": 37,
+      "line": "Is there any way I could have my own room?",
+      "phonetic": "ɪz ðɛr ˈɛni weɪ aɪ kʊd hæv maɪ oʊn ruːm",
+      "translation": "¿Hay alguna manera de que pueda tener mi propia habitación?",
+      "tense": "Presente simple + condicional (could) — pregunta formal/educada",
+      "structure": "Interrogativa existencial (Is there any way) + cláusula relativa (I could have my own room)",
+      "tokens": [
+        {"word": "Is there", "pos": "construcción existencial (invertida)", "note": "pregunta sobre existencia — 'there is' invertido para preguntar"},
+        {"word": "any way", "pos": "sintagma nominal", "note": "'any' en preguntas = 'algún'; 'way' = manera, posibilidad"},
+        {"word": "I could", "pos": "sujeto + modal", "note": "'could' = forma educada de 'can'; suaviza el pedido"},
+        {"word": "have", "pos": "verbo principal", "note": "tener"},
+        {"word": "my own", "pos": "posesivo + enfático", "note": "'own' enfatiza posesión exclusiva — 'mi propia (exclusiva)'"},
+        {"word": "room", "pos": "sustantivo", "note": "habitación"}
+      ],
+      "note": "El uso de 'could' en lugar de 'can' hace el pedido más educado y menos directo. Es un pedido muy formal/cortés — contrasta con el ambiente del hospital."
+    },
+    {
+      "id": 38,
+      "line": "Oh, absolutely.",
+      "phonetic": "oʊ ˈæbsəluːtli",
+      "translation": "Oh, absolutamente. / Por supuesto.",
+      "tense": "Sin verbo — respuesta afirmativa enfática (irónica)",
+      "structure": "Interjección (Oh) + adverbio de afirmación (absolutely)",
+      "tokens": [
+        {"word": "Oh", "pos": "interjección", "note": "expresa que la respuesta viene a continuación — puede ser sorpresa, ironía o simple transición"},
+        {"word": "absolutely", "pos": "adverbio de afirmación", "note": "= 'por supuesto', 'claro que sí' — énfasis máximo en la afirmación"}
+      ],
+      "note": "Aquí 'absolutely' es sarcástico. La enfermera dice que 'por supuesto' puede tener habitación privada, pero la siguiente línea revela que es una broma."
+    },
+    {
+      "id": 39,
+      "line": "Just call the concierge and ask for a suite overlooking the fountain.",
+      "phonetic": "dʒʌst kɔːl ðə kɒnˈsɪərʒ ænd ɑːsk fər ə swiːt ˌoʊvərˈlʊkɪŋ ðə ˈfaʊntɪn",
+      "translation": "Solo llame al conserje y pida una suite con vista a la fuente.",
+      "tense": "Imperativo (presente) — sarcástico",
+      "structure": "Adverbio (Just) + Imperativo 1 (call the concierge) + coordinador (and) + Imperativo 2 (ask for a suite overlooking the fountain)",
+      "tokens": [
+        {"word": "Just", "pos": "adverbio", "note": "minimizador irónico — 'simplemente'"},
+        {"word": "call", "pos": "verbo imperativo", "note": "primer verbo de la coordinación"},
+        {"word": "the concierge", "pos": "sintagma nominal", "note": "objeto directo; 'concierge' es préstamo del francés — conserje de hotel"},
+        {"word": "and", "pos": "conjunción coordinante", "note": "une dos imperativos paralelos"},
+        {"word": "ask for", "pos": "verbo frasal", "note": "'pedir'; no separable en este contexto"},
+        {"word": "a suite", "pos": "sintagma nominal", "note": "habitación de lujo en hotel"},
+        {"word": "overlooking", "pos": "participio presente (adjetival)", "note": "modifica 'suite' — 'con vista a'; NO significa 'ignorar' aquí"},
+        {"word": "the fountain", "pos": "sintagma nominal", "note": "objeto de 'overlooking'"}
+      ],
+      "note": "Respuesta sarcástica: la enfermera usa vocabulario de hotel de lujo (concierge, suite) para burlarse del pedido de Patch. 'Overlook' = tener vista a / dar a (cuando se habla de edificios)."
+    },
+    {
+      "id": 40,
+      "line": "No, I prefer the cabana room.",
+      "phonetic": "noʊ aɪ prɪˈfɜːr ðə kəˈbɑːnə ruːm",
+      "translation": "No, yo prefiero la habitación con cabana.",
+      "tense": "Presente simple",
+      "structure": "Negación (No) + Sujeto (I) + verbo (prefer) + objeto (the cabana room)",
+      "tokens": [
+        {"word": "No", "pos": "adverbio de negación", "note": "rechaza la opción implícita de la suite"},
+        {"word": "I", "pos": "pronombre personal", "note": "sujeto — el pronombre va en posición enfática"},
+        {"word": "prefer", "pos": "verbo (presente simple)", "note": "preferir — expresa preferencia entre opciones"},
+        {"word": "the cabana room", "pos": "sintagma nominal", "note": "'cabana' = área cubierta junto a piscina en hoteles de lujo — Patch sigue el juego del sarcasmo"}
+      ],
+      "note": "Patch Adams sigue la broma de la enfermera con otra referencia de hotel de lujo. Muestra su humor: en vez de cortar la ironía, la amplía."
+    },
+    {
+      "id": 41,
+      "line": "Get some sleep.",
+      "phonetic": "ɡɛt sʌm sliːp",
+      "translation": "Duerme un poco. / Descansa.",
+      "tense": "Imperativo (presente)",
+      "structure": "Verbo imperativo (Get) + objeto (some sleep)",
+      "tokens": [
+        {"word": "Get", "pos": "verbo imperativo", "note": "'get + sustantivo' = obtener, conseguir algo; aquí = 'tener' sueño"},
+        {"word": "some", "pos": "determinante", "note": "cantidad indeterminada — 'un poco de'"},
+        {"word": "sleep", "pos": "sustantivo incontable", "note": "el sueño como sustantivo — 'get some sleep' = dormir un poco (expresión fija)"}
+      ],
+      "note": "'Get some sleep' es una expresión fija — más natural que 'sleep a little'. 'Sleep' puede ser sustantivo incontable ('need sleep') o verbo ('I sleep')."
+    },
+    {
+      "id": 42,
+      "line": "Hi.",
+      "phonetic": "haɪ",
+      "translation": "Hola.",
+      "tense": "Sin verbo — saludo informal",
+      "structure": "Interjección de saludo",
+      "tokens": [
+        {"word": "Hi", "pos": "interjección", "note": "saludo informal — más corto y casual que 'Hello'"}
+      ],
+      "note": "'Hi' es más informal que 'Hello'. 'Hey' es aún más informal. En contextos formales se usa 'Hello' o 'Good morning/afternoon'."
+    },
+    {
+      "id": 43,
+      "line": "Hi.",
+      "phonetic": "haɪ",
+      "translation": "Hola.",
+      "tense": "Sin verbo — saludo informal (respuesta)",
+      "structure": "Interjección de saludo — espejo del saludo anterior",
+      "tokens": [
+        {"word": "Hi", "pos": "interjección", "note": "espejo del saludo previo — Patch responde el saludo de su nuevo compañero de cuarto (la ardilla)"}
+      ],
+      "note": "El intercambio de 'Hi / Hi' como si fuera entre personas es la base del chiste: Patch trata a la ardilla como a un humano."
+    },
+    {
+      "id": 44,
+      "line": "You're, um... you're a lot... fuzzier than my last roommate.",
+      "phonetic": "jʊər ə lɒt ˈfʌziər ðæn maɪ lɑːst ˈruːmmeɪt",
+      "translation": "Eres bastante... más peludo que mi último compañero de cuarto.",
+      "tense": "Presente simple — descripción de estado",
+      "structure": "Sujeto (You) + cópula (are) + intensificador (a lot) + adjetivo comparativo (fuzzier) + complemento de comparación (than my last roommate)",
+      "tokens": [
+        {"word": "You're", "pos": "sujeto + cópula", "note": "contracción de 'you are'"},
+        {"word": "um", "pos": "marcador de duda", "note": "pausa de habla; indica que el hablante busca palabras"},
+        {"word": "a lot", "pos": "sintagma adverbial", "note": "intensificador del comparativo — 'bastante más', 'mucho más'"},
+        {"word": "fuzzier", "pos": "adjetivo comparativo", "note": "fuzzy (peludo/esponjoso) → comparativo: fuzzier. Regla: adj de 2 sílabas con -y → -ier"},
+        {"word": "than", "pos": "conjunción comparativa", "note": "introduce el segundo término de la comparación"},
+        {"word": "my last", "pos": "posesivo + adjetivo", "note": "'last' = anterior, último"},
+        {"word": "roommate", "pos": "sustantivo", "note": "compañero de cuarto/habitación"}
+      ],
+      "note": "Patch le habla a una ardilla en el hospital. El humor surge de tratar al animal como a una persona. Los '...' en el guion indican pausa y búsqueda de palabras."
+    },
+    {
+      "id": 45,
+      "line": "Oh. Yeah.",
+      "phonetic": "oʊ jɛ",
+      "translation": "Oh. Sí.",
+      "tense": "Sin verbo — respuesta informal",
+      "structure": "Interjección (Oh) + afirmación informal (Yeah)",
+      "tokens": [
+        {"word": "Oh", "pos": "interjección", "note": "expresa comprensión o leve sorpresa"},
+        {"word": "Yeah", "pos": "adverbio de afirmación", "note": "forma informal de 'Yes' — muy común en habla cotidiana americana"}
+      ],
+      "note": "'Yeah' es la pronunciación coloquial de 'yes'. 'Yep', 'yup', 'uh-huh' son otras variantes informales. En contextos formales se usa 'yes'."
+    },
+    {
+      "id": 46,
+      "line": "Keeps me warm.",
+      "phonetic": "kiːps miː wɔːrm",
+      "translation": "Me mantiene caliente / abrigado.",
+      "tense": "Presente simple — sujeto omitido",
+      "structure": "[It] Keeps me warm — sujeto 'it' omitido por contexto",
+      "tokens": [
+        {"word": "Keeps", "pos": "verbo (presente simple)", "note": "3ra persona singular — sujeto 'it' omitido; keep = mantener, conservar"},
+        {"word": "me", "pos": "pronombre objeto", "note": "objeto indirecto"},
+        {"word": "warm", "pos": "adjetivo predicativo objetivo", "note": "complemento del objeto — describe el estado resultante: 'me mantiene [en el estado de estar] caliente'"}
+      ],
+      "note": "'Keep + objeto + adjetivo' = mantener a alguien en cierto estado. El sujeto 'it' (el pelaje) se omite porque es obvio del contexto (acaba de decir que es peludo)."
+    },
+    {
+      "id": 47,
+      "line": "Aaaah!",
+      "phonetic": "ɑːɑːɑː",
+      "translation": "¡Aaah!",
+      "tense": "Sin verbo — exclamación de miedo/sorpresa",
+      "structure": "Interjección de terror",
+      "tokens": [
+        {"word": "Aaaah!", "pos": "interjección", "note": "grito de miedo o sorpresa extrema — la ortografía extendida ('aaa') indica duración e intensidad"}
+      ],
+      "note": "Las interjecciones de grito no tienen análisis gramatical. La extensión de letras ('Aaaah' vs 'Ah') refleja intensidad en texto escrito."
+    },
+    {
+      "id": 48,
+      "line": "- What's wrong? - Get 'em away!",
+      "phonetic": "wʌts rɒŋ ɡɛt əm əˈweɪ",
+      "translation": "- ¿Qué pasa? / ¿Qué tienes? - ¡Aléjalos!",
+      "tense": "Presente simple (interrogativo) + Imperativo",
+      "structure": "Pregunta (What's wrong?) + Imperativo (Get 'em away)",
+      "tokens": [
+        {"word": "What's wrong", "pos": "expresión idiomática interrogativa", "note": "= '¿Qué pasa?', '¿Qué tienes?'; 'wrong' = incorrecto, mal"},
+        {"word": "Get", "pos": "verbo imperativo", "note": "aquí 'get away' = alejar, quitar"},
+        {"word": "'em", "pos": "pronombre objeto", "note": "forma reducida de 'them' — muy coloquial"},
+        {"word": "away", "pos": "adverbio de dirección", "note": "indica movimiento hacia fuera del espacio — 'lejos de aquí'"}
+      ],
+      "note": "'What's wrong?' = pregunta fija para preguntar qué le pasa a alguien. ''em' = 'them' reducido — muy común en habla rápida informal."
+    },
+    {
+      "id": 49,
+      "line": "- Get what away? - Get 'em-- Get 'em away!",
+      "phonetic": "ɡɛt wɒt əˈweɪ ɡɛt əm ɡɛt əm əˈweɪ",
+      "translation": "- ¿Alejar qué? - ¡Sácalos! ¡Sácalos de aquí!",
+      "tense": "Pregunta de clarificación + Imperativo repetido",
+      "structure": "Pregunta eco (Get what away?) + Imperativo con interrupción + Imperativo completo",
+      "tokens": [
+        {"word": "Get what away?", "pos": "pregunta de clarificación", "note": "repite el imperativo con 'what' para pedir especificación — '¿alejar qué cosa?'"},
+        {"word": "Get 'em--", "pos": "imperativo interrumpido", "note": "el hablante no puede terminar la frase por el miedo/agitación"},
+        {"word": "Get 'em away!", "pos": "imperativo completo", "note": "finalmente completa el imperativo con el adverbio 'away'"}
+      ],
+      "note": "La interrupción (--) y la repetición reflejan el estado de pánico del personaje. Es un recurso dramático para mostrar agitación extrema."
+    },
+    {
+      "id": 50,
+      "line": "- Okay, I'm gonna have to-- - You traitor!",
+      "phonetic": "oʊˈkeɪ aɪm ˈɡɒnə hæv tə juː ˈtreɪtər",
+      "translation": "Okay, voy a tener que... ¡Traidor!",
+      "tense": "Futuro de intención (gonna) — oración interrumpida",
+      "structure": "Interjección (Okay) + Sujeto (I) + auxiliar (am) + gonna (going to) + verbo modal (have to) + [interrupción] / Vocativo (You) + sustantivo (traitor)",
+      "tokens": [
+        {"word": "I'm", "pos": "sujeto + auxiliar", "note": "contracción de 'I am'"},
+        {"word": "gonna", "pos": "auxiliar informal", "note": "forma oral de 'going to' — futuro de intención"},
+        {"word": "have to", "pos": "verbo modal", "note": "obligación externa — 'tener que'"},
+        {"word": "--", "pos": "interrupción", "note": "la oración queda sin completar — recurso dramático"},
+        {"word": "You traitor!", "pos": "vocativo + sustantivo", "note": "exclamación — 'traidor'; interrumpe la frase de Patch"}
+      ],
+      "note": "'gonna' = 'going to' (forma coloquial). 'Have to' expresa obligación. La oración queda interrumpida (--) antes de completarse, generando suspenso cómico."
+    },
+    {
+      "id": 51,
+      "line": "You brought 'em with you when you opened the door!",
+      "phonetic": "juː brɔːt əm wɪð juː wɛn juː ˈoʊpənd ðə dɔːr",
+      "translation": "¡Los trajiste contigo cuando abriste la puerta!",
+      "tense": "Pasado simple",
+      "structure": "Sujeto (You) + verbo (brought) + objeto ('em) + adverbio (with you) + cláusula temporal (when you opened the door)",
+      "tokens": [
+        {"word": "You", "pos": "pronombre personal", "note": "sujeto — acusación directa"},
+        {"word": "brought", "pos": "verbo (pasado simple)", "note": "bring → brought (irregular); traer"},
+        {"word": "'em", "pos": "pronombre objeto", "note": "'them' reducido — las ardillas imaginarias"},
+        {"word": "with you", "pos": "sintagma preposicional", "note": "indica compañía — 'consigo'"},
+        {"word": "when", "pos": "conjunción temporal", "note": "introduce cláusula de tiempo"},
+        {"word": "opened", "pos": "verbo (pasado simple)", "note": "open → opened (regular)"}
+      ],
+      "note": "'Bring → brought' es irregular. 'With you' indica que el paciente acusa a Patch de haber traído las ardillas (imaginarias) al abrir la puerta."
+    },
+    {
+      "id": 52,
+      "line": "Who?",
+      "phonetic": "huː",
+      "translation": "¿Quién?",
+      "tense": "Interrogativa elíptica — sin verbo",
+      "structure": "Pronombre interrogativo solo",
+      "tokens": [
+        {"word": "Who?", "pos": "pronombre interrogativo", "note": "pregunta por una persona/entidad — forma elíptica de '¿A quién trajiste?'"}
+      ],
+      "note": "Pregunta de clarificación. Patch pregunta '¿Quién?' porque no sabe de qué habla su compañero de cuarto, lo que acentúa el humor."
+    },
+    {
+      "id": 53,
+      "line": "We need help in here!",
+      "phonetic": "wiː niːd hɛlp ɪn hɪər",
+      "translation": "¡Necesitamos ayuda aquí adentro!",
+      "tense": "Presente simple — urgencia",
+      "structure": "Sujeto (We) + verbo (need) + objeto (help) + complemento de lugar (in here)",
+      "tokens": [
+        {"word": "We", "pos": "pronombre personal plural", "note": "sujeto — incluye a Patch y al paciente"},
+        {"word": "need", "pos": "verbo (presente simple)", "note": "necesitar — indica urgencia en presente"},
+        {"word": "help", "pos": "sustantivo incontable", "note": "ayuda"},
+        {"word": "in here", "pos": "locución adverbial", "note": "'in here' = aquí adentro — enfatiza que el problema está dentro del cuarto"}
+      ],
+      "note": "'In here' es más específico que 'here': indica estar dentro de un espacio cerrado. Contrasta con 'out there' (ahí afuera)."
+    },
+    {
+      "id": 54,
+      "line": "Somebody!",
+      "phonetic": "ˈsʌmbədi",
+      "translation": "¡Alguien! / ¡Que venga alguien!",
+      "tense": "Sin verbo — llamado de auxilio",
+      "structure": "Pronombre indefinido solo como llamado urgente",
+      "tokens": [
+        {"word": "Somebody", "pos": "pronombre indefinido", "note": "= 'alguien'; implica 'que venga alguien [a ayudar]' — el verbo se omite por urgencia"}
+      ],
+      "note": "Una sola palabra como llamado de emergencia. La omisión del verbo ('¡que venga alguien!') refleja la urgencia extrema del momento."
+    },
+    {
+      "id": 55,
+      "line": "- All right. - No! No! No!",
+      "phonetic": "ɔːl raɪt noʊ noʊ noʊ",
+      "translation": "- Está bien. - ¡No! ¡No! ¡No!",
+      "tense": "Sin verbo — intercambio de respuestas emocionales",
+      "structure": "Afirmación (All right) + Negación repetida (No! No! No!)",
+      "tokens": [
+        {"word": "All right", "pos": "locución de afirmación/acuerdo", "note": "= 'okay', alguien intenta calmar la situación"},
+        {"word": "No! No! No!", "pos": "adverbio de negación repetido", "note": "la repetición intensifica el rechazo — pánico extremo"}
+      ],
+      "note": "La repetición de 'No!' es un recurso para mostrar terror o negativa absoluta. Tres repeticiones es el patrón más común en el habla emocional."
+    },
+    {
+      "id": 56,
+      "line": "They'll get me! Don't take me down! They'll get me! No!",
+      "phonetic": "ðeɪl ɡɛt miː doʊnt teɪk miː daʊn ðeɪl ɡɛt miː noʊ",
+      "translation": "¡Me van a atrapar! ¡No me bajen! ¡Me van a atrapar! ¡No!",
+      "tense": "Futuro (They'll) + Imperativo negativo (Don't take)",
+      "structure": "Oración en futuro + imperativo negativo + repetición + negación",
+      "tokens": [
+        {"word": "They'll", "pos": "sujeto + auxiliar futuro", "note": "contracción de 'they will' — futuro"},
+        {"word": "get me", "pos": "verbo + objeto", "note": "'get' aquí = atrapar, alcanzar — 'they'll get me' = me van a alcanzar/atrapar"},
+        {"word": "Don't take me down", "pos": "imperativo negativo", "note": "'take down' = bajar, tumbar; 'don't' niega el imperativo"},
+        {"word": "down", "pos": "adverbio de dirección", "note": "hacia abajo — parte del verbo frasal 'take down'"}
+      ],
+      "note": "'Take down' = bajar a alguien físicamente. El paciente tiene alucinaciones con ardillas — todo es producto de su psicosis."
+    },
+    {
+      "id": 57,
+      "line": "Don't let the squirrels get me! Please!",
+      "phonetic": "doʊnt lɛt ðə ˈskwɪrəlz ɡɛt miː pliːz",
+      "translation": "¡No dejes que las ardillas me atrapen! ¡Por favor!",
+      "tense": "Imperativo negativo",
+      "structure": "Negación (Don't) + verbo causativo (let) + sujeto subordinado (the squirrels) + infinitivo (get me)",
+      "tokens": [
+        {"word": "Don't", "pos": "auxiliar negativo imperativo", "note": "niega el imperativo — 'no hagas que...'"},
+        {"word": "let", "pos": "verbo causativo", "note": "'let + sujeto + infinitivo' = permitir que alguien haga algo"},
+        {"word": "the squirrels", "pos": "sintagma nominal", "note": "las ardillas — el objeto de la alucinación del paciente"},
+        {"word": "get", "pos": "verbo (infinitivo)", "note": "atrapar — complemento de 'let'"},
+        {"word": "me", "pos": "pronombre objeto", "note": "objeto de 'get'"},
+        {"word": "Please!", "pos": "adverbio de ruego", "note": "añadido al final para intensificar la súplica — posición más enfática que al inicio"}
+      ],
+      "note": "'Don't let + sujeto + infinitivo' = no permitas que [alguien] haga algo. Estructura causativa negativa muy común en inglés."
+    },
+    {
+      "id": 58,
+      "line": "Don't let the squirrels get me!",
+      "phonetic": "doʊnt lɛt ðə ˈskwɪrəlz ɡɛt miː",
+      "translation": "¡No dejes que las ardillas me atrapen!",
+      "tense": "Imperativo negativo — repetición",
+      "structure": "Misma estructura que la línea anterior, sin 'Please'",
+      "tokens": [
+        {"word": "Don't let", "pos": "imperativo negativo causativo", "note": "misma estructura: no permitas que..."},
+        {"word": "the squirrels", "pos": "sintagma nominal", "note": ""},
+        {"word": "get me", "pos": "verbo + objeto", "note": ""}
+      ],
+      "note": "Repetición idéntica sin 'Please' — el personaje está en pánico máximo y repite su súplica compulsivamente."
+    },
+    {
+      "id": 59,
+      "line": "That was a squirrel bite!",
+      "phonetic": "ðæt wɒz ə ˈskwɪrəl baɪt",
+      "translation": "¡Eso fue una mordida de ardilla!",
+      "tense": "Pasado simple",
+      "structure": "Sujeto demostrativo (That) + cópula (was) + predicado nominal (a squirrel bite)",
+      "tokens": [
+        {"word": "That", "pos": "pronombre demostrativo", "note": "sujeto — refiere a algo que acaba de ocurrir"},
+        {"word": "was", "pos": "verbo copulativo (pasado)", "note": "pasado de 'be'"},
+        {"word": "a squirrel bite", "pos": "sintagma nominal", "note": "mordida de ardilla — 'bite' = mordisco (sustantivo); 'squirrel' = ardilla como modificador nominal"}
+      ],
+      "note": "Humor absurdo: alguien declara con total convicción que fue mordido por una ardilla imaginaria. La comicidad viene del contraste entre la gravedad del tono y lo absurdo del contenido."
+    },
+    {
+      "id": 60,
+      "line": "Squirrels.",
+      "phonetic": "ˈskwɪrəlz",
+      "translation": "Ardillas.",
+      "tense": "Sin verbo — conclusión resignada",
+      "structure": "Sustantivo solo — comentario seco",
+      "tokens": [
+        {"word": "Squirrels.", "pos": "sustantivo plural", "note": "ardillas — dicho con resignación, posiblemente por Patch; equivale a '...ardillas...' (sin más comentario)"}
+      ],
+      "note": "Una sola palabra como conclusión irónica o resignada. El punto final (en lugar de exclamación) marca el tono: no sorpresa, sino aceptación cansada de la situación absurda."
+    },
+    {
+      "id": 61,
+      "line": "My father died when I was nine.",
+      "phonetic": "maɪ ˈfɑːðər daɪd wɛn aɪ wɒz naɪn",
+      "translation": "Mi padre murió cuando yo tenía nueve años.",
+      "tense": "Pasado simple",
+      "structure": "Sujeto (My father) + verbo (died) + cláusula temporal (when I was nine)",
+      "tokens": [
+        {"word": "My father", "pos": "sintagma nominal", "note": "sujeto — relación familiar directa"},
+        {"word": "died", "pos": "verbo (pasado simple)", "note": "die → died (regular); morir"},
+        {"word": "when", "pos": "conjunción temporal", "note": "introduce cláusula de tiempo simultáneo"},
+        {"word": "I was nine", "pos": "cláusula temporal", "note": "'I was nine [years old]' — edad omite 'years old' por economía lingüística"}
+      ],
+      "note": "En inglés se omite 'years old' cuando el contexto es claro: 'I was nine' = 'I was nine years old'. Cambio total de registro: de la comedia al drama personal."
+    },
+    {
+      "id": 62,
+      "line": "He was in the army. He wasn't home very much.",
+      "phonetic": "hiː wɒz ɪn ðə ˈɑːrmi hiː ˈwɒznt hoʊm ˈvɛri mʌtʃ",
+      "translation": "Estaba en el ejército. No estaba en casa muy seguido.",
+      "tense": "Pasado simple",
+      "structure": "Dos oraciones simples en pasado: ubicación + frecuencia negativa",
+      "tokens": [
+        {"word": "in the army", "pos": "sintagma preposicional", "note": "en el ejército — 'army' siempre lleva 'the' cuando es institución"},
+        {"word": "wasn't", "pos": "cópula negativa (pasado)", "note": "contracción de 'was not'"},
+        {"word": "home", "pos": "adverbio de lugar", "note": "en casa — sin preposición en inglés: 'at home' o simplemente 'home'"},
+        {"word": "very much", "pos": "locución adverbial de frecuencia", "note": "muy frecuentemente — en negativo: 'no muy seguido', 'pocas veces'"}
+      ],
+      "note": "'Very much' en oraciones negativas = 'muy a menudo' negado: 'He wasn't home very much' = rara vez estaba en casa. Diferente a 'He was not home at all' (nunca)."
+    },
+    {
+      "id": 63,
+      "line": "Two weeks before he died...",
+      "phonetic": "tuː wiːks bɪˈfɔːr hiː daɪd",
+      "translation": "Dos semanas antes de que muriera...",
+      "tense": "Pasado simple en la cláusula — frase incompleta (continúa)",
+      "structure": "Sintagma nominal de tiempo (Two weeks) + preposición (before) + cláusula temporal (he died)",
+      "tokens": [
+        {"word": "Two weeks", "pos": "sintagma nominal temporal", "note": "marco temporal — cuánto tiempo antes"},
+        {"word": "before", "pos": "preposición / conjunción", "note": "antes de — introduce el punto de referencia temporal"},
+        {"word": "he died", "pos": "cláusula temporal", "note": "pasado simple; la elipsis (...) indica que la oración continúa en la siguiente línea"}
+      ],
+      "note": "La frase queda abierta (...) para crear suspenso narrativo. El pasado simple 'died' en la subordinada es correcto — no se usa pasado perfecto en cláusulas con 'before'."
+    },
+    {
+      "id": 64,
+      "line": "he told me that in the Korean War...",
+      "phonetic": "hiː toʊld miː ðæt ɪn ðə kəˈriːən wɔːr",
+      "translation": "me dijo que en la Guerra de Corea...",
+      "tense": "Pasado simple — reporte de discurso",
+      "structure": "Sujeto (he) + verbo de reporte (told) + objeto indirecto (me) + complemento (that...) — continúa en la siguiente línea",
+      "tokens": [
+        {"word": "he", "pos": "pronombre personal", "note": "sujeto — el padre"},
+        {"word": "told", "pos": "verbo (pasado simple)", "note": "tell → told (irregular); 'tell me that' = decirme que (discurso indirecto)"},
+        {"word": "me", "pos": "pronombre objeto indirecto", "note": "a quién le dijo"},
+        {"word": "that", "pos": "conjunción subordinante", "note": "introduce la cláusula de discurso indirecto"},
+        {"word": "in the Korean War", "pos": "sintagma preposicional", "note": "complemento de lugar/contexto; 'Korean War' = Guerra de Corea (1950-1953)"}
+      ],
+      "note": "'Tell + objeto indirecto + that + cláusula' = estructura de discurso indirecto. La oración continúa en la línea 65."
+    },
+    {
+      "id": 65,
+      "line": "it felt like he'd lost his soul.",
+      "phonetic": "ɪt fɛlt laɪk hiːd lɒst hɪz soʊl",
+      "translation": "se sentía como si hubiera perdido su alma.",
+      "tense": "Pasado simple (felt) + Pasado perfecto (had lost) en la cláusula subordinada",
+      "structure": "Sujeto expletivo (it) + verbo (felt) + complemento comparativo (like he'd lost his soul)",
+      "tokens": [
+        {"word": "it", "pos": "pronombre impersonal", "note": "sujeto expletivo — no refiere a nada concreto; equivale a 'eso'"},
+        {"word": "felt", "pos": "verbo (pasado simple)", "note": "feel → felt; verbo de percepción/sensación"},
+        {"word": "like", "pos": "conjunción subordinante", "note": "introduce la cláusula de comparación — 'como si'"},
+        {"word": "he'd", "pos": "contracción", "note": "'he had' — auxiliar del pasado perfecto"},
+        {"word": "lost", "pos": "participio pasado", "note": "lose → lost; verbo principal de la cláusula subordinada"},
+        {"word": "his soul", "pos": "sintagma nominal", "note": "objeto directo; 'soul' = alma, uso metafórico"}
+      ],
+      "note": "El pasado perfecto (had lost) indica que 'perder el alma' ocurrió antes del punto de referencia pasado. En español se mapea al pluscuamperfecto: 'había perdido'. 'feel like' = sentirse como si."
+    },
+    {
+      "id": 66,
+      "line": "All this time I thought it was me.",
+      "phonetic": "ɔːl ðɪs taɪm aɪ θɔːt ɪt wɒz miː",
+      "translation": "Todo este tiempo pensé que era mi culpa / que era yo el problema.",
+      "tense": "Pasado simple",
+      "structure": "Complemento de tiempo (All this time) + Sujeto (I) + verbo (thought) + cláusula objeto (it was me)",
+      "tokens": [
+        {"word": "All this time", "pos": "sintagma adverbial temporal", "note": "durante todo este tiempo — indica duración larga hasta el presente de la narración"},
+        {"word": "I", "pos": "pronombre personal", "note": "sujeto"},
+        {"word": "thought", "pos": "verbo (pasado simple)", "note": "think → thought (irregular); verbo de creencia"},
+        {"word": "it was me", "pos": "cláusula objeto", "note": "'it was me' = era yo (el problema); 'it' impersonal + 'me' como predicativo"}
+      ],
+      "note": "'I thought it was me' = creía que yo era la causa/el problema. La expresión implica culpa autoatribuida — Patch pensaba que era responsable de la tristeza de su padre."
+    },
+    {
+      "id": 67,
+      "line": "I moved seven times in the last year.",
+      "phonetic": "aɪ muːvd ˈsɛvən taɪmz ɪn ðə lɑːst jɪər",
+      "translation": "Me mudé siete veces en el último año.",
+      "tense": "Pasado simple",
+      "structure": "Sujeto (I) + verbo (moved) + complemento de frecuencia (seven times) + complemento de tiempo (in the last year)",
+      "tokens": [
+        {"word": "I", "pos": "pronombre personal", "note": "sujeto"},
+        {"word": "moved", "pos": "verbo (pasado simple)", "note": "move → moved (regular); mudarse de casa"},
+        {"word": "seven times", "pos": "sintagma adverbial de frecuencia", "note": "siete veces — 'times' = veces (multiplicación o frecuencia)"},
+        {"word": "in the last year", "pos": "sintagma preposicional temporal", "note": "'in the last year' = en el último año (período que termina ahora)"}
+      ],
+      "note": "'In the last year' = durante el año más reciente. Diferente a 'last year' (el año pasado, específico). El dato de siete mudanzas muestra inestabilidad."
+    },
+    {
+      "id": 68,
+      "line": "I've, uh, had several jobs.",
+      "phonetic": "aɪv hæd ˈsɛvrəl dʒɒbz",
+      "translation": "He tenido varios trabajos.",
+      "tense": "Presente perfecto",
+      "structure": "Sujeto (I) + auxiliar (have) + participio (had) + objeto (several jobs)",
+      "tokens": [
+        {"word": "I've", "pos": "sujeto + auxiliar", "note": "contracción de 'I have' — auxiliar del presente perfecto"},
+        {"word": "uh", "pos": "marcador de duda", "note": "pausa de habla — el hablante busca palabras o titubea"},
+        {"word": "had", "pos": "participio pasado", "note": "have → had; verbo principal en presente perfecto"},
+        {"word": "several", "pos": "determinante indefinido", "note": "varios — más que dos o tres, pero no muchos; número impreciso"},
+        {"word": "jobs", "pos": "sustantivo plural", "note": "trabajos, empleos"}
+      ],
+      "note": "El presente perfecto ('have had') en vez de pasado simple indica que la experiencia es relevante para el presente. 'Uh' en medio de la oración muestra que el hablante titubea — posiblemente avergonzado."
+    },
+    {
+      "id": 69,
+      "line": "Nothing seemed to fit.",
+      "phonetic": "ˈnʌθɪŋ siːmd tə fɪt",
+      "translation": "Nada parecía encajar.",
+      "tense": "Pasado simple",
+      "structure": "Sujeto (Nothing) + verbo (seemed) + complemento infinitivo (to fit)",
+      "tokens": [
+        {"word": "Nothing", "pos": "pronombre negativo", "note": "sujeto — pronombre negativo indefinido; impone negación sin 'not'"},
+        {"word": "seemed", "pos": "verbo (pasado simple)", "note": "seem → seemed; verbo que expresa apariencia o impresión"},
+        {"word": "to fit", "pos": "infinitivo complemento", "note": "'seem + to + infinitivo' = parecía [ser/hacer algo]"}
+      ],
+      "note": "'fit' aquí es metafórico — no encajar emocionalmente o socialmente. 'Seem + to + infinitivo' es una estructura muy frecuente para expresar impresión: 'parece que...'."
+    },
+    {
+      "id": 70,
+      "line": "I don't seem to fit.",
+      "phonetic": "aɪ doʊnt siːm tə fɪt",
+      "translation": "No parece que yo encaje. / No parezco encajar.",
+      "tense": "Presente simple (negativo)",
+      "structure": "Sujeto (I) + auxiliar negativo (don't) + verbo (seem) + infinitivo (to fit)",
+      "tokens": [
+        {"word": "I", "pos": "pronombre personal", "note": "sujeto — primera persona singular"},
+        {"word": "don't", "pos": "auxiliar negativo", "note": "contracción de 'do not' — niega el verbo principal"},
+        {"word": "seem", "pos": "verbo", "note": "mismo que la línea anterior, pero en presente y primera persona"},
+        {"word": "to fit", "pos": "infinitivo complemento", "note": "misma estructura que la línea anterior"}
+      ],
+      "note": "La misma estructura que la línea anterior ('Nothing seemed to fit') pero en primera persona y presente. El cambio de 'Nothing' a 'I' hace la observación más personal y vulnerable."
+    },
+    {
+      "id": 71,
+      "line": "And when your father died, how did that make you feel?",
+      "phonetic": "ænd wɛn jɔːr ˈfɑːðər daɪd haʊ dɪd ðæt meɪk juː fiːl",
+      "translation": "¿Y cuando murió tu padre, cómo te hizo sentir eso?",
+      "tense": "Pasado simple — pregunta del terapeuta",
+      "structure": "Conjunción (And) + cláusula temporal (when your father died) + pregunta principal (how did that make you feel?)",
+      "tokens": [
+        {"word": "And", "pos": "conjunción coordinante", "note": "al inicio de pregunta — informal, señala continuación de la conversación"},
+        {"word": "when your father died", "pos": "cláusula temporal", "note": "pasado simple — punto de referencia temporal"},
+        {"word": "how", "pos": "adverbio interrogativo", "note": "pregunta por el modo/manera"},
+        {"word": "did", "pos": "auxiliar interrogativo (pasado)", "note": "invierte el orden para formar pregunta en pasado"},
+        {"word": "that", "pos": "pronombre demostrativo", "note": "sujeto — refiere a la muerte del padre"},
+        {"word": "make you feel", "pos": "verbo causativo + infinitivo", "note": "'make + objeto + infinitivo sin to' = hacer que alguien sienta algo"}
+      ],
+      "note": "'Make + objeto + infinitivo sin 'to'' es la estructura causativa: 'hizo que sintieras'. Diferente de 'let' (permitir) o 'have' (encargar). Pregunta clásica de terapia."
+    },
+    {
+      "id": 72,
+      "line": "I don't know. I was nine.",
+      "phonetic": "aɪ doʊnt noʊ aɪ wɒz naɪn",
+      "translation": "No sé. Tenía nueve años.",
+      "tense": "Presente simple (negativo) + Pasado simple",
+      "structure": "Dos oraciones cortas: negación de conocimiento + justificación por edad",
+      "tokens": [
+        {"word": "I don't know", "pos": "oración completa", "note": "expresión fija — 'no sé'; el presente indica que aún hoy no sabe cómo se sintió"},
+        {"word": "I was nine", "pos": "oración explicativa", "note": "justificación implícita: era demasiado pequeño para procesar o recordar"}
+      ],
+      "note": "'I was nine' como oración completa implica 'era un niño de nueve años — ¿qué podía saber?'. La brevedad de la respuesta sugiere incomodidad o incapacidad de articular el dolor."
+    },
+    {
+      "id": 73,
+      "line": "It was like there was this distinction, suddenly...",
+      "phonetic": "ɪt wɒz laɪk ðɛr wɒz ðɪs dɪˈstɪŋkʃən ˈsʌdənli",
+      "translation": "Era como si de repente hubiera esta distinción...",
+      "tense": "Pasado simple — descripción de experiencia",
+      "structure": "Sujeto expletivo (It) + cópula (was) + comparativo (like) + construcción existencial (there was this distinction) + adverbio (suddenly)",
+      "tokens": [
+        {"word": "It was like", "pos": "expresión comparativa", "note": "'it was like' = era como si — introduce una comparación o metáfora"},
+        {"word": "there was", "pos": "construcción existencial (pasado)", "note": "'there was' = había — existencia en el pasado"},
+        {"word": "this", "pos": "determinante demostrativo", "note": "'this' en lugar de 'a' da sensación de especificidad y cercanía emocional — 'esta' distinción en particular"},
+        {"word": "distinction", "pos": "sustantivo", "note": "distinción, diferencia — diferencia percibida entre uno mismo y el mundo"},
+        {"word": "suddenly", "pos": "adverbio", "note": "de repente — indica cambio abrupto; posición final da énfasis"}
+      ],
+      "note": "'This' en lugar de 'a' es un recurso narrativo informal: da intimidad, como si el hablante señalara algo que el oyente también puede ver. 'Suddenly' al final es más enfático que al inicio."
+    },
+    {
+      "id": 74,
+      "line": "between you and the rest of the world.",
+      "phonetic": "bɪˈtwiːn juː ænd ðə rɛst əv ðə wɜːrld",
+      "translation": "entre tú y el resto del mundo.",
+      "tense": "Continuación de la oración anterior — sin verbo propio",
+      "structure": "Sintagma preposicional: preposición (between) + dos términos (you / the rest of the world)",
+      "tokens": [
+        {"word": "between", "pos": "preposición", "note": "entre — indica posición o relación entre dos elementos"},
+        {"word": "you", "pos": "pronombre personal", "note": "segundo término — dirige la frase al oyente directamente"},
+        {"word": "and", "pos": "conjunción coordinante", "note": "une los dos términos de 'between'"},
+        {"word": "the rest of the world", "pos": "sintagma nominal", "note": "'the rest' = lo demás, el resto; 'the rest of the world' = todos los demás"}
+      ],
+      "note": "'Between X and Y' siempre requiere dos términos. 'The rest of the world' = todos excepto tú — sensación de aislamiento total. Cierre del primer arco narrativo de la película."
+    }
+  ]
+}

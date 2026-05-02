@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0d0d0d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Script Viewer</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+    body {
+      background: #0d0d0d;
+      color: #e0e0e0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      overscroll-behavior: none;
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: #0d0d0d;
+      border-bottom: 1px solid #1e1e1e;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .back-btn {
+      color: #e8b84b;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 6px 0;
+      flex-shrink: 0;
+    }
+
+    .header-info { flex: 1; min-width: 0; }
+
+    .header-info h1 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #f0f0f0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .header-info p {
+      font-size: 12px;
+      color: #444;
+      margin-top: 1px;
+    }
+
+    /* ── LEGEND ── */
+    .legend {
+      padding: 10px 16px;
+      display: flex;
+      gap: 16px;
+      border-bottom: 1px solid #1a1a1a;
+      background: #0d0d0d;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      color: #444;
+    }
+
+    .dot { width: 7px; height: 7px; border-radius: 50%; }
+    .dot.analyzed { background: #e8b84b; }
+    .dot.plain { background: #333; }
+
+    /* ── LINE LIST ── */
+    .script { padding: 8px 0 120px; }
+
+    .line-row {
+      padding: 14px 16px;
+      border-bottom: 1px solid #141414;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      min-height: 52px;
+    }
+
+    .line-row.analyzable {
+      cursor: pointer;
+    }
+
+    .line-row.analyzable:active {
+      background: #1a1a1a;
+    }
+
+    .line-num {
+      font-size: 11px;
+      color: #2e2e2e;
+      font-variant-numeric: tabular-nums;
+      min-width: 24px;
+      padding-top: 2px;
+      flex-shrink: 0;
+      text-align: right;
+    }
+
+    .line-content { flex: 1; min-width: 0; }
+
+    .line-text {
+      font-size: 15px;
+      line-height: 1.5;
+      color: #c0c0c0;
+    }
+
+    .line-row.analyzable .line-text {
+      color: #e0e0e0;
+    }
+
+    .line-indicator {
+      flex-shrink: 0;
+      padding-top: 5px;
+    }
+
+    .analyze-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #e8b84b;
+    }
+
+    /* ── BOTTOM SHEET ── */
+    .overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+
+    .overlay.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .sheet {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 101;
+      background: #141414;
+      border-radius: 20px 20px 0 0;
+      max-height: 88vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transform: translateY(100%);
+      transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+    }
+
+    .sheet.visible {
+      transform: translateY(0);
+    }
+
+    .sheet-handle {
+      width: 36px;
+      height: 4px;
+      background: #333;
+      border-radius: 2px;
+      margin: 10px auto 0;
+      flex-shrink: 0;
+    }
+
+    .sheet-header {
+      padding: 14px 20px 12px;
+      border-bottom: 1px solid #1e1e1e;
+      flex-shrink: 0;
+    }
+
+    .sheet-original {
+      font-size: 16px;
+      font-weight: 600;
+      color: #f0f0f0;
+      line-height: 1.4;
+    }
+
+    .sheet-close {
+      position: absolute;
+      top: 12px;
+      right: 16px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #222;
+      border: none;
+      color: #666;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sheet-body {
+      overflow-y: auto;
+      flex: 1;
+      padding: 0 0 32px;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* ── SHEET SECTIONS ── */
+    .section {
+      padding: 16px 20px 0;
+    }
+
+    .section-label {
+      font-size: 10px;
+      font-weight: 700;
+      color: #444;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      margin-bottom: 8px;
+    }
+
+    /* Translation */
+    .translation-box {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 14px 16px;
+      border-left: 3px solid #e8b84b;
+    }
+
+    .translation-text {
+      font-size: 17px;
+      font-weight: 500;
+      color: #f0f0f0;
+      line-height: 1.4;
+    }
+
+    /* Phonetic */
+    .phonetic-text {
+      font-size: 15px;
+      color: #888;
+      font-style: italic;
+      background: #1a1a1a;
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-family: 'Segoe UI', Georgia, serif;
+    }
+
+    /* Tense + Structure */
+    .info-row {
+      background: #1a1a1a;
+      border-radius: 10px;
+      padding: 10px 14px;
+      margin-bottom: 6px;
+    }
+
+    .info-row .key {
+      font-size: 11px;
+      color: #555;
+      margin-bottom: 3px;
+    }
+
+    .info-row .val {
+      font-size: 14px;
+      color: #ccc;
+      line-height: 1.4;
+    }
+
+    /* Token table */
+    .token-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .token-table th {
+      text-align: left;
+      padding: 8px 10px;
+      font-size: 10px;
+      font-weight: 700;
+      color: #444;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border-bottom: 1px solid #1e1e1e;
+    }
+
+    .token-table td {
+      padding: 10px 10px;
+      border-bottom: 1px solid #1a1a1a;
+      vertical-align: top;
+      line-height: 1.4;
+    }
+
+    .token-table tr:last-child td { border-bottom: none; }
+
+    .token-word {
+      color: #e8b84b;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .token-pos { color: #4bae8a; }
+    .token-note { color: #777; }
+
+    /* Note */
+    .note-box {
+      background: #1a1a1a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      font-size: 13px;
+      color: #888;
+      line-height: 1.6;
+      border-left: 3px solid #333;
+    }
+
+    /* divider */
+    .divider {
+      height: 1px;
+      background: #1a1a1a;
+      margin: 16px 20px 0;
+    }
+
+    /* ── EMPTY STATE ── */
+    #empty-state {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      text-align: center;
+      padding: 40px 20px;
+      color: #333;
+    }
+
+    #empty-state .emoji { font-size: 48px; margin-bottom: 16px; }
+    #empty-state p { font-size: 15px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="back-btn">‹ Back</a>
+    <div class="header-info">
+      <h1 id="movie-title">Loading...</h1>
+      <p id="movie-subtitle"></p>
+    </div>
+  </header>
+
+  <div class="legend">
+    <div class="legend-item">
+      <div class="dot analyzed"></div>
+      <span>Tap to analyze</span>
+    </div>
+    <div class="legend-item">
+      <div class="dot plain"></div>
+      <span>Not yet analyzed</span>
+    </div>
+  </div>
+
+  <div class="script" id="script-container">
+    <div id="empty-state">
+      <div class="emoji">🎬</div>
+      <p>Loading script...</p>
+    </div>
+  </div>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay" onclick="closeSheet()"></div>
+
+  <!-- Bottom Sheet -->
+  <div class="sheet" id="sheet">
+    <div class="sheet-handle"></div>
+    <button class="sheet-close" onclick="closeSheet()">✕</button>
+
+    <div class="sheet-header">
+      <div class="sheet-original" id="sheet-original"></div>
+    </div>
+
+    <div class="sheet-body" id="sheet-body"></div>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(location.search);
+    const movieId = params.get('movie') || 'patch_adams';
+
+    let currentData = null;
+
+    async function loadMovie() {
+      try {
+        const res = await fetch(`data/${movieId}.json`);
+        currentData = await res.json();
+
+        document.getElementById('movie-title').textContent = currentData.movie;
+        document.getElementById('movie-subtitle').textContent =
+          `${currentData.year} · ${currentData.lines.length} lines`;
+
+        renderScript(currentData.lines);
+      } catch (e) {
+        document.getElementById('empty-state').style.display = 'flex';
+        document.querySelector('#empty-state p').textContent = 'Could not load script.';
+      }
+    }
+
+    function renderScript(lines) {
+      const container = document.getElementById('script-container');
+      container.innerHTML = '';
+
+      lines.forEach((entry, i) => {
+        const isAnalyzed = !!entry.translation;
+
+        const row = document.createElement('div');
+        row.className = 'line-row' + (isAnalyzed ? ' analyzable' : '');
+        if (isAnalyzed) row.onclick = () => openSheet(entry);
+
+        row.innerHTML = `
+          <div class="line-num">${entry.id}</div>
+          <div class="line-content">
+            <div class="line-text">${escapeHtml(entry.line)}</div>
+          </div>
+          ${isAnalyzed ? '<div class="line-indicator"><div class="analyze-dot"></div></div>' : ''}
+        `;
+
+        container.appendChild(row);
+      });
+    }
+
+    function openSheet(entry) {
+      document.getElementById('sheet-original').textContent = entry.line;
+
+      const body = document.getElementById('sheet-body');
+      body.innerHTML = buildSheetContent(entry);
+
+      document.getElementById('overlay').classList.add('visible');
+      document.getElementById('sheet').classList.add('visible');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeSheet() {
+      document.getElementById('overlay').classList.remove('visible');
+      document.getElementById('sheet').classList.remove('visible');
+      document.body.style.overflow = '';
+    }
+
+    function buildSheetContent(entry) {
+      let html = '';
+
+      // Translation
+      html += `
+        <div class="section">
+          <div class="section-label">Translation</div>
+          <div class="translation-box">
+            <div class="translation-text">${escapeHtml(entry.translation)}</div>
+          </div>
+        </div>`;
+
+      // Phonetic
+      if (entry.phonetic) {
+        html += `
+          <div class="section" style="margin-top:14px">
+            <div class="section-label">Phonetics (IPA)</div>
+            <div class="phonetic-text">/ ${escapeHtml(entry.phonetic)} /</div>
+          </div>`;
+      }
+
+      // Tense + Structure
+      if (entry.tense || entry.structure) {
+        html += `<div class="section" style="margin-top:14px">
+          <div class="section-label">Grammar</div>`;
+
+        if (entry.tense) {
+          html += `<div class="info-row">
+            <div class="key">Verb tense</div>
+            <div class="val">${escapeHtml(entry.tense)}</div>
+          </div>`;
+        }
+
+        if (entry.structure) {
+          html += `<div class="info-row">
+            <div class="key">Sentence structure</div>
+            <div class="val">${escapeHtml(entry.structure)}</div>
+          </div>`;
+        }
+
+        html += `</div>`;
+      }
+
+      // Token table
+      if (entry.tokens && entry.tokens.length > 0) {
+        html += `
+          <div class="divider"></div>
+          <div class="section" style="margin-top:14px">
+            <div class="section-label">Word by word</div>
+            <table class="token-table">
+              <thead>
+                <tr>
+                  <th>Word</th>
+                  <th>Category</th>
+                  <th>Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${entry.tokens.map(t => `
+                  <tr>
+                    <td class="token-word">${escapeHtml(t.word)}</td>
+                    <td class="token-pos">${escapeHtml(t.pos)}</td>
+                    <td class="token-note">${escapeHtml(t.note || '—')}</td>
+                  </tr>`).join('')}
+              </tbody>
+            </table>
+          </div>`;
+      }
+
+      // Note
+      if (entry.note) {
+        html += `
+          <div class="divider"></div>
+          <div class="section" style="margin-top:14px">
+            <div class="section-label">Notes</div>
+            <div class="note-box">${escapeHtml(entry.note)}</div>
+          </div>`;
+      }
+
+      return html;
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return str
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    // Swipe down to close sheet
+    let touchStartY = 0;
+    const sheet = document.getElementById('sheet');
+
+    sheet.addEventListener('touchstart', e => {
+      touchStartY = e.touches[0].clientY;
+    }, { passive: true });
+
+    sheet.addEventListener('touchend', e => {
+      const delta = e.changedTouches[0].clientY - touchStartY;
+      if (delta > 80) closeSheet();
+    }, { passive: true });
+
+    loadMovie();
+  </script>
+</body>
+</html>
